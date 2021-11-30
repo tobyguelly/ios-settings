@@ -3,7 +3,7 @@ import SwiftUI
 struct ProfileView: View {
 	var body: some View {
 		NavigationLink(
-			destination: Text("Hello World")
+			destination: Spacer()
 		) {
 			HStack {
 				Image(systemName: "person.crop.circle.fill")

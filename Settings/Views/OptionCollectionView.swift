@@ -39,7 +39,7 @@ struct GeneralSettingView: View {
 		OpenableOptionView(
 			name: "Wi-Fi",
 			image: "wifi",
-			hint: "Home Network 2.4 GHz",
+			hint: "Off",
 			color: .blue
 		)
 		OpenableOptionView(

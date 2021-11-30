@@ -5,7 +5,7 @@ struct OpenableOptionView: View {
 	var color: Color
 	var body: some View {
 		NavigationLink(
-			destination: Text("Hello World")
+			destination: Spacer()
 		) {
 			HStack {
 				ZStack {
