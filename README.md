@@ -1,5 +1,5 @@
-# Settings
-A simple iOS Settings app coded with SwiftUI inspired by the iPhone settings.
+# iOS Settings
+A simple remake of the original iOS Settings app written in SwiftUI.
  
- <img src="https://i.imgur.com/kXuioPU.png" width="300px" />
+ <img src="https://i.imgur.com/gOJLlMv.png" />
  
