@@ -7,81 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4DC373288EEDB90059B47B /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4DC372288EEDB90059B47B /* OptionView.swift */; };
 		DAA7682E27416BAC0084C76D /* SettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682D27416BAC0084C76D /* SettingsApp.swift */; };
-		DAA7683027416BAC0084C76D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682F27416BAC0084C76D /* ContentView.swift */; };
 		DAA7683227416BAD0084C76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA7683127416BAD0084C76D /* Assets.xcassets */; };
-		DAA7683527416BAD0084C76D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA7683427416BAD0084C76D /* Preview Assets.xcassets */; };
-		DAA7683F27416BAD0084C76D /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7683E27416BAD0084C76D /* SettingsTests.swift */; };
-		DAA7684927416BAD0084C76D /* SettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7684827416BAD0084C76D /* SettingsUITests.swift */; };
-		DAA7684B27416BAD0084C76D /* SettingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7684A27416BAD0084C76D /* SettingsUITestsLaunchTests.swift */; };
-		DAC86E10274180CF004BA093 /* OptionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E0F274180CF004BA093 /* OptionViews.swift */; };
 		DAC86E1227418177004BA093 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E1127418177004BA093 /* ProfileView.swift */; };
-		DAC86E14274181E1004BA093 /* OptionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E13274181E1004BA093 /* OptionCollectionView.swift */; };
-		DAC86E18274182A6004BA093 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E17274182A6004BA093 /* SettingsView.swift */; };
-		DAC86E1D274186C6004BA093 /* OptionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E13274181E1004BA093 /* OptionCollectionView.swift */; };
-		DAC86E1E274186C6004BA093 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E17274182A6004BA093 /* SettingsView.swift */; };
-		DAC86E1F274186C6004BA093 /* OptionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E0F274180CF004BA093 /* OptionViews.swift */; };
-		DAC86E20274186C6004BA093 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E1127418177004BA093 /* ProfileView.swift */; };
-		DAC86E21274186C7004BA093 /* OptionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E13274181E1004BA093 /* OptionCollectionView.swift */; };
-		DAC86E22274186C7004BA093 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E17274182A6004BA093 /* SettingsView.swift */; };
-		DAC86E23274186C7004BA093 /* OptionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E0F274180CF004BA093 /* OptionViews.swift */; };
-		DAC86E24274186C7004BA093 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E1127418177004BA093 /* ProfileView.swift */; };
-		DAC86E252741876F004BA093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682F27416BAC0084C76D /* ContentView.swift */; };
-		DAC86E262741876F004BA093 /* SettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682D27416BAC0084C76D /* SettingsApp.swift */; };
-		DAC86E2727418770004BA093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682F27416BAC0084C76D /* ContentView.swift */; };
-		DAC86E2827418770004BA093 /* SettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7682D27416BAC0084C76D /* SettingsApp.swift */; };
+		DAC86E18274182A6004BA093 /* DemoSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC86E17274182A6004BA093 /* DemoSettingsView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DAA7683B27416BAD0084C76D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAA7682227416BAC0084C76D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAA7682927416BAC0084C76D;
-			remoteInfo = Settings;
-		};
-		DAA7684527416BAD0084C76D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAA7682227416BAC0084C76D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAA7682927416BAC0084C76D;
-			remoteInfo = Settings;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		DA4DC372288EEDB90059B47B /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 		DAA7682A27416BAC0084C76D /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA7682D27416BAC0084C76D /* SettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsApp.swift; sourceTree = "<group>"; };
-		DAA7682F27416BAC0084C76D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAA7683127416BAD0084C76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAA7683427416BAD0084C76D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAA7683A27416BAD0084C76D /* SettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA7683E27416BAD0084C76D /* SettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTests.swift; sourceTree = "<group>"; };
-		DAA7684427416BAD0084C76D /* SettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA7684827416BAD0084C76D /* SettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUITests.swift; sourceTree = "<group>"; };
-		DAA7684A27416BAD0084C76D /* SettingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DAC86E0F274180CF004BA093 /* OptionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViews.swift; sourceTree = "<group>"; };
 		DAC86E1127418177004BA093 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		DAC86E13274181E1004BA093 /* OptionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCollectionView.swift; sourceTree = "<group>"; };
-		DAC86E17274182A6004BA093 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DAC86E17274182A6004BA093 /* DemoSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DAA7682727416BAC0084C76D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7683727416BAD0084C76D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7684127416BAD0084C76D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				DAA7682C27416BAC0084C76D /* Settings */,
-				DAA7683D27416BAD0084C76D /* SettingsTests */,
-				DAA7684727416BAD0084C76D /* SettingsUITests */,
 				DAA7682B27416BAC0084C76D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				DAA7682A27416BAC0084C76D /* Settings.app */,
-				DAA7683A27416BAD0084C76D /* SettingsTests.xctest */,
-				DAA7684427416BAD0084C76D /* SettingsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,45 +55,17 @@
 			children = (
 				DAC86E1C2741868B004BA093 /* Views */,
 				DAA7682D27416BAC0084C76D /* SettingsApp.swift */,
-				DAA7682F27416BAC0084C76D /* ContentView.swift */,
 				DAA7683127416BAD0084C76D /* Assets.xcassets */,
-				DAA7683327416BAD0084C76D /* Preview Content */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		DAA7683327416BAD0084C76D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DAA7683427416BAD0084C76D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DAA7683D27416BAD0084C76D /* SettingsTests */ = {
-			isa = PBXGroup;
-			children = (
-				DAA7683E27416BAD0084C76D /* SettingsTests.swift */,
-			);
-			path = SettingsTests;
-			sourceTree = "<group>";
-		};
-		DAA7684727416BAD0084C76D /* SettingsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DAA7684827416BAD0084C76D /* SettingsUITests.swift */,
-				DAA7684A27416BAD0084C76D /* SettingsUITestsLaunchTests.swift */,
-			);
-			path = SettingsUITests;
 			sourceTree = "<group>";
 		};
 		DAC86E1C2741868B004BA093 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DAC86E0F274180CF004BA093 /* OptionViews.swift */,
 				DAC86E1127418177004BA093 /* ProfileView.swift */,
-				DAC86E13274181E1004BA093 /* OptionCollectionView.swift */,
-				DAC86E17274182A6004BA093 /* SettingsView.swift */,
+				DAC86E17274182A6004BA093 /* DemoSettingsView.swift */,
+				DA4DC372288EEDB90059B47B /* OptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,42 +90,6 @@
 			productReference = DAA7682A27416BAC0084C76D /* Settings.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAA7683927416BAD0084C76D /* SettingsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAA7685127416BAD0084C76D /* Build configuration list for PBXNativeTarget "SettingsTests" */;
-			buildPhases = (
-				DAA7683627416BAD0084C76D /* Sources */,
-				DAA7683727416BAD0084C76D /* Frameworks */,
-				DAA7683827416BAD0084C76D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAA7683C27416BAD0084C76D /* PBXTargetDependency */,
-			);
-			name = SettingsTests;
-			productName = SettingsTests;
-			productReference = DAA7683A27416BAD0084C76D /* SettingsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DAA7684327416BAD0084C76D /* SettingsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAA7685427416BAD0084C76D /* Build configuration list for PBXNativeTarget "SettingsUITests" */;
-			buildPhases = (
-				DAA7684027416BAD0084C76D /* Sources */,
-				DAA7684127416BAD0084C76D /* Frameworks */,
-				DAA7684227416BAD0084C76D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAA7684627416BAD0084C76D /* PBXTargetDependency */,
-			);
-			name = SettingsUITests;
-			productName = SettingsUITests;
-			productReference = DAA7684427416BAD0084C76D /* SettingsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,14 +102,6 @@
 				TargetAttributes = {
 					DAA7682927416BAC0084C76D = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					DAA7683927416BAD0084C76D = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = DAA7682927416BAC0084C76D;
-					};
-					DAA7684327416BAD0084C76D = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = DAA7682927416BAC0084C76D;
 					};
 				};
 			};
@@ -252,8 +119,6 @@
 			projectRoot = "";
 			targets = (
 				DAA7682927416BAC0084C76D /* Settings */,
-				DAA7683927416BAD0084C76D /* SettingsTests */,
-				DAA7684327416BAD0084C76D /* SettingsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,22 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA7683527416BAD0084C76D /* Preview Assets.xcassets in Resources */,
 				DAA7683227416BAD0084C76D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7683827416BAD0084C76D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7684227416BAD0084C76D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,57 +140,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC86E1227418177004BA093 /* ProfileView.swift in Sources */,
-				DAA7683027416BAC0084C76D /* ContentView.swift in Sources */,
-				DAC86E10274180CF004BA093 /* OptionViews.swift in Sources */,
-				DAC86E18274182A6004BA093 /* SettingsView.swift in Sources */,
+				DAC86E18274182A6004BA093 /* DemoSettingsView.swift in Sources */,
+				DA4DC373288EEDB90059B47B /* OptionView.swift in Sources */,
 				DAA7682E27416BAC0084C76D /* SettingsApp.swift in Sources */,
-				DAC86E14274181E1004BA093 /* OptionCollectionView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7683627416BAD0084C76D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAC86E1E274186C6004BA093 /* SettingsView.swift in Sources */,
-				DAA7683F27416BAD0084C76D /* SettingsTests.swift in Sources */,
-				DAC86E252741876F004BA093 /* ContentView.swift in Sources */,
-				DAC86E20274186C6004BA093 /* ProfileView.swift in Sources */,
-				DAC86E262741876F004BA093 /* SettingsApp.swift in Sources */,
-				DAC86E1D274186C6004BA093 /* OptionCollectionView.swift in Sources */,
-				DAC86E1F274186C6004BA093 /* OptionViews.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA7684027416BAD0084C76D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA7684B27416BAD0084C76D /* SettingsUITestsLaunchTests.swift in Sources */,
-				DAC86E22274186C7004BA093 /* SettingsView.swift in Sources */,
-				DAC86E2727418770004BA093 /* ContentView.swift in Sources */,
-				DAA7684927416BAD0084C76D /* SettingsUITests.swift in Sources */,
-				DAC86E23274186C7004BA093 /* OptionViews.swift in Sources */,
-				DAC86E24274186C7004BA093 /* ProfileView.swift in Sources */,
-				DAC86E2827418770004BA093 /* SettingsApp.swift in Sources */,
-				DAC86E21274186C7004BA093 /* OptionCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DAA7683C27416BAD0084C76D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAA7682927416BAC0084C76D /* Settings */;
-			targetProxy = DAA7683B27416BAD0084C76D /* PBXContainerItemProxy */;
-		};
-		DAA7684627416BAD0084C76D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAA7682927416BAC0084C76D /* Settings */;
-			targetProxy = DAA7684527416BAD0084C76D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DAA7684C27416BAD0084C76D /* Debug */ = {
@@ -466,7 +272,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Settings/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -494,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Settings/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -515,98 +321,6 @@
 			};
 			name = Release;
 		};
-		DAA7685227416BAD0084C76D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.guelly.SettingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Settings.app/Settings";
-			};
-			name = Debug;
-		};
-		DAA7685327416BAD0084C76D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.guelly.SettingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Settings.app/Settings";
-			};
-			name = Release;
-		};
-		DAA7685527416BAD0084C76D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.guelly.SettingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Settings;
-			};
-			name = Debug;
-		};
-		DAA7685627416BAD0084C76D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = at.guelly.SettingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Settings;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,24 +338,6 @@
 			buildConfigurations = (
 				DAA7684F27416BAD0084C76D /* Debug */,
 				DAA7685027416BAD0084C76D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAA7685127416BAD0084C76D /* Build configuration list for PBXNativeTarget "SettingsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAA7685227416BAD0084C76D /* Debug */,
-				DAA7685327416BAD0084C76D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAA7685427416BAD0084C76D /* Build configuration list for PBXNativeTarget "SettingsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAA7685527416BAD0084C76D /* Debug */,
-				DAA7685627416BAD0084C76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

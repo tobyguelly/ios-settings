@@ -1,24 +1,43 @@
 import SwiftUI
 
-struct ProfileView: View {
+struct ProfileSectionView<Content: View>: View {
+	
+	private var name, description: String
+	private var image: Image?
+	
+	private var content: Content?
+	
+	init(_ name: String, _ description: String, image: Image? = nil, @ViewBuilder content: () -> Content) {
+		self.name = name
+		self.description = description
+		self.image = image
+		self.content = content()
+	}
+	
 	var body: some View {
-		NavigationLink(
-			destination: Spacer()
-		) {
-			HStack {
-				Image(systemName: "person.crop.circle.fill")
-					.resizable()
-					.frame(width: 50, height: 50)
-					.foregroundColor(.gray)
-				VStack(alignment: .leading) {
-					Text("Tobias Gülly")
-						.font(Font.title)
-					Text("Apple ID, iCloud, Media & Purchases")
-						.font(Font.subheadline)
-						.lineLimit(1)
+		Section {
+			NavigationLink(
+				destination: self.content
+			) {
+				HStack {
+					if self.image != nil {
+						self.image
+					} else {
+						Image(systemName: "person.crop.circle.fill")
+							.resizable()
+							.frame(width: 50, height: 50)
+							.foregroundColor(.gray)
+					}
+					VStack(alignment: .leading) {
+						Text(self.name)
+							.font(Font.title)
+						Text(self.description)
+							.font(Font.subheadline)
+							.lineLimit(1)
+					}
+					.padding(.top, 10)
+					.padding(.bottom, 10)
 				}
-				.padding(.top, 10)
-				.padding(.bottom, 10)
 			}
 		}
 	}
