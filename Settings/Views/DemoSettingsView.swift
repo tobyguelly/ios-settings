@@ -2,6 +2,7 @@ import SwiftUI
 
 struct DemoSettingsView: View {
 	
+	@State private var demoAirplane: Bool = true
 	@State private var demoHours: Bool = true
 	@State private var demoAuto: Bool = true
 	
@@ -17,13 +18,12 @@ struct DemoSettingsView: View {
 					Spacer()
 				}
 				Section {
-					OptionView(
+					OptionView<Spacer>(
 						"Airplane Mode",
 						image: "airplane",
-						color: .orange
-					) {
-						Spacer()
-					}
+						color: .orange,
+						binding: self.$demoAirplane
+					)
 					OptionView(
 						"Wi-Fi",
 						hint: "Off",

@@ -30,13 +30,11 @@ struct ProfileSectionView<Content: View>: View {
 					}
 					VStack(alignment: .leading) {
 						Text(self.name)
-							.font(Font.title)
+							.font(Font.title2)
 						Text(self.description)
 							.font(Font.subheadline)
 							.lineLimit(1)
 					}
-					.padding(.top, 10)
-					.padding(.bottom, 10)
 				}
 			}
 		}
